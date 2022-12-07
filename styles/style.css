@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(11, 11, 22, 0.933) !important;
+}
+.offcanvas {
+    background-color: rgba(11, 11, 22, 0.933) !important;
+    width: 100% !important;
+    color: aliceblue !important;
+}
+.navbar-brand img{
+    margin-left: 80px;
+}
+.nav-link {
+    color: white !important;
+    font-size: 18px !important;
+}
+.nav-link span {
+    color: rgb(122, 195, 229);
+}
+
+h1 {
+    color: rgb(210, 101, 137);
+    padding-top: 200px;
+    white-space: nowrap;
+    font-size: 30px !important;
+}
+.hero {
+    margin-top: 100px;
+}
+.generalHead {
+    margin-left: 100px;
+}
+
+.hero .btn {
+    padding: 10px;
+    background-color: aquamarine;
+}
+.generalHead p {
+    color: white;
+    padding: 15px 0;
+}
+.about {
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
