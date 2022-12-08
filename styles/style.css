@@ -1,11 +1,28 @@
 body {
-    background-color: rgba(11, 11, 22, 0.933) !important;
+    background-color: rgb(28, 28, 42) !important;
+}
+.navbar {
+    background-color: rgb(28, 28, 42);
 }
 .offcanvas {
-    background-color: rgba(11, 11, 22, 0.933) !important;
+    background-color: rgb(28, 28, 42) !important;
     width: 100% !important;
     color: aliceblue !important;
 }
+/* .offcanvas form {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 15px;
+}
+.offcanvas input {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.offcanvas input::placeholder {
+    color: rgba(122, 195, 229, 0.698);
+} */
 .navbar-brand img{
     margin-left: 80px;
 }
@@ -16,7 +33,9 @@ body {
 .nav-link span {
     color: rgb(122, 195, 229);
 }
-
+#changeLang {
+    margin-right: 80px;
+}
 h1 {
     color: rgb(210, 101, 137);
     padding-top: 200px;
@@ -24,7 +43,10 @@ h1 {
     font-size: 30px !important;
 }
 .hero {
-    margin-top: 100px;
+    margin: 100px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
 }
 .generalHead {
     margin-left: 100px;
@@ -38,9 +60,55 @@ h1 {
     color: white;
     padding: 15px 0;
 }
-.about {
-    background-color: aliceblue;
+#about {
+    background-color: rgb(195, 211, 226);
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+}
+#skills {
+    color: rgb(118, 213, 230);
+    margin: 120px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+.skill-img {
+    width: 120px;
+    padding: 10px;
+}
+.skill-img:hover {
+    scale: 150%;
+    background-color: rgba(255, 255, 255, 0.64);
+    border-radius: 10px;
+}
+.skills {
+    width: 60%;
+}
+.skills h3 {
+    padding-bottom: 30px;
+}
+.btn-technology {
+    background-color: none;
+    border: none;
+}
+#skills h2 {
+    color: white;
+    font-size: 60px !important;
+    line-height: 1;
+    padding-bottom: 50px;
+}
+#skills p {
+    padding: 25px;
+}
+.experience {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+#portfolio {
+    background-color: rgb(195, 211, 226);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
 }
