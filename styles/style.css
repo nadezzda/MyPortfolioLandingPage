@@ -369,12 +369,14 @@ footer p {
     }
     .firstProj {
         width: 100%;
+        padding: 10px;
     }
     .projText {
         font-size: 14px;
     }
     .secondProj {
         width: 100%;
+        padding: 10px;
     }
     .projImg {
         width: 90%;
